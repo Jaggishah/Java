@@ -10,7 +10,7 @@ class diamondstar{
                 System.out.println(" ");
         }
         intialstar -= 4;
-        for (int rows = N; rows >= 1 ; rows--){
+        for (int rows = N-1; rows >= 1 ; rows--){
              for ( int stars = intialstar ; stars >= 1 ; stars--){
                 System.out.print("*");
              }
